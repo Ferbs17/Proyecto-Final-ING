@@ -1,0 +1,9 @@
+﻿*~
+*.lnk
+*.user
+.vs/
+bin/
+obj/
+site/
+wwwroot/
+packages/

@@ -11,13 +11,18 @@
 
 Integrantes del Equipo:
 
-| Nombre | correo |
+| Nombre | Correo |
 | --- | --- |
-| Name 1 | my.email@mail.com |
-| Name 2 | my.email@mail.com |
+| Araujo Palestina Claudio Hassiel | 317193497@pcpuma.acatlan.unam.mx |
+| Armenta Gonzáles Juan José | 317109313@pcpuma.acatlan.unam.mx |
+| Chávez Herrera María Itzel | 317163113@pcpuma.acatlan.unam.mx |
+| Díaz Uribe Luis Felipe  | 317226793@pcpuma.acatlan.unam.mx | 
+| Padilla Arrieta Erick | 317260683@pcpuma.acatlan.unam.mx |
+| Zavala Elizondo Fernando | 316073996@pcpuma.acatlan.unam.mx |
 
 &nbsp;
 # Objetivo
-
+Desarrollar un aplicación web que estando conectada a una base de datos local, permita al usuario crear ordenes de alimentos y bebidas en tiempo real. 
 &nbsp;
 # Problematica
+Un cliente abrirá un negocio de comida en 2 meses y nos solicita una aplicación web para poder realizar pedidos de alimentos de manera local y que este conectado en tiempo real al negocio para saber si hay disponibilidad de productos.     

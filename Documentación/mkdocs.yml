@@ -10,10 +10,10 @@ theme:
 extra_css:
     - css/page.css
 nav:
-    - Problema: todo.md
+    - Problema: pob.md
     - Requerimientos:
         - Requerimientos Usuario: usu.md
-        - Requerimiento 2: isu.md
+        - Requerimientos Sistema: isu.md
     - Modelado:
         - Inicio: todo.md
     - Diseño:

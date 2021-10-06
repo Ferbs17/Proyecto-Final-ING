@@ -12,8 +12,8 @@ extra_css:
 nav:
     - Problema: todo.md
     - Requerimientos:
-        - Requerimiento Usuario: usu.md
-        - Requerimiento 2: todo.md
+        - Requerimientos Usuario: usu.md
+        - Requerimiento 2: isu.md
     - Modelado:
         - Inicio: todo.md
     - Diseño:

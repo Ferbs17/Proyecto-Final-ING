@@ -15,9 +15,9 @@ nav:
         - Requerimientos Usuario: usu.md
         - Requerimientos Sistema: isu.md
     - Modelado:
-        - Inicio: prueba.md
-    - Diseño:
         - Inicio: todo.md
+    - Diseño:
+        - Inicio: prueba.md
     - Validación:
         - Inicio: todo.md
 copyright: ©GMDXX

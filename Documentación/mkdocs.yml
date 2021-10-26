@@ -17,8 +17,8 @@ nav:
     - Modelado:
         - Inicio: todo.md
     - Diseño:
-        - Inicio: prueba.md
-    - Validación:
         - Inicio: todo.md
+    - Validación:
+        - Inicio: prueba.md
 copyright: ©GMDXX
 site_author: GMDXX

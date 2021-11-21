@@ -12,10 +12,10 @@ extra_css:
 nav:
     - Problema: TRAB.md
     - Requerimientos:
-        - Requerimientos Usuario: REQUSU.md
-        - Requerimientos Sistema: REQSIS.md
+        - Requerimientos Usuario: requerimientos/REQUSU.md
+        - Requerimientos Sistema: requerimientos/REQSIS.md
     - Diseño:
-        - Inicio: todo.md
+        - Inicio: diseño/DIS.md
     - Validación:
         - Métricas: pruebas/pru.md
 copyright: ©GMDXX

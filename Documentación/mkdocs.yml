@@ -10,12 +10,12 @@ theme:
 extra_css:
     - css/page.css
 nav:
-    - Problema: pob.md
+    - Problema: TRAB.md
     - Requerimientos:
-        - Requerimientos Usuario: usu.md
-        - Requerimientos Sistema: isu.md
+        - Requerimientos Usuario: REQUSU.md
+        - Requerimientos Sistema: REQSIS.md
     - Modelado:
-        - Inicio: prueba.md
+        - Inicio: MOD.md
     - Diseño:
         - Inicio: todo.md
     - Validación:

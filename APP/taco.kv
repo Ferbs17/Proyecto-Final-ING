@@ -1,0 +1,126 @@
+#:import utils kivy.utils
+WindowManager:
+    MenuScreen:
+    TortillasScreen:
+
+<TortillasScreen>
+    name: "tortilla"
+    RelativeLayout:
+        canvas.before:
+            Color:
+                rgba: 1,1,1,1
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        GridLayout:
+            padding: "5dp", "2dp"
+            size_hint: 1,1
+            cols: 1
+            spacing: "2dp"
+            InfoBox:
+            InfoBox:
+            InfoBox:
+        AnchorLayout:
+            padding: "20dp"
+            anchor_x: "right"
+            anchor_y: "bottom"
+            Button:
+                text: "Back"
+                size_hint: .2,.1
+                on_release:
+                    app.root.current = "menu"
+                    root.manager.transition.direction = "right"
+
+
+
+<MenuScreen>:
+    name: "menu"
+    RelativeLayout:
+        canvas.before:
+            Color:
+                rgba: 1,1,1,1
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        GridLayout:
+            size: root.size
+            pos: root.pos
+            cols: 1
+            rows: 2
+            Label:
+                size_hint: 0.1, 0.1
+                text: "Taco Manager"
+                font_size: 32
+                color: 0,0,0,1
+            GridLayout:
+                size: root.size
+                pos: root.pos
+                padding: "20dp"
+                spacing: "10dp"
+                cols: 2
+                rows: 3
+                StyleButton:
+                    text: "Tortillas"
+                    on_release:
+                        app.root.current = "tortilla"
+                        root.manager.transition.direction = "left"
+                StyleButton:
+                    text: "Carnes"
+                StyleButton:
+                    text: "Verduras"
+                StyleButton:
+                    text: "Bebidas"
+                StyleButton:
+                    text: "Cervezas"
+                StyleButton:
+                    text: "Otros"
+
+<RoundBackground@Widget>:
+    background_color: 0,0,0,1
+    canvas.before:
+        Color:
+            rgba: root.background_color
+        RoundedRectangle:
+            size: self.size
+            pos: self.pos
+            radius: [10]
+
+<InfoBox@BoxLayout+RoundBackground>:
+    size_hint: 1, None
+    orientation: "vertical"
+    Label:
+        padding: "10dp", "0"
+        size_hint: 1, .3
+        text_size: self.size
+        text: "Name"
+        halign: "left"
+        valign: "middle"
+    Label:
+        padding: "10dp", "0"
+        size_hint: 1, .3
+        text_size: self.size
+        text: "Number"
+        halign: "left"
+        valign: "middle"
+    Label:
+        padding: "10dp", "0"
+        size_hint: 1, .3
+        text_size: self.size
+        text: "Direction"
+        halign: "left"
+        valign: "middle"
+
+
+
+
+<StyleButton@Button>:
+    background_normal: ''
+    background_color: 0,0,0,0
+    canvas.before:
+        Color:
+            rgba: (33/255,116/255,189/255,1)
+        RoundedRectangle:
+            size: self.size
+            pos: self.pos
+            radius: [10]
+

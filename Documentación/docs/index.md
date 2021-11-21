@@ -22,7 +22,7 @@ Integrantes del Equipo:
 
 &nbsp;
 # Objetivo
-Desarrollar un aplicación web que estando conectada a una base de datos local, permita al usuario crear ordenes de alimentos y bebidas en tiempo real. 
+Desarrollar un aplicación web que estando conectada a una base de datos local, permita al usuario revisar locales cercanos donde pueda adquirir los productos que necesite (Bebidas, Carne, tortillas, etc.). 
 &nbsp;
 # Problematica
-Un cliente abrirá un negocio de comida en 2 meses y nos solicita una aplicación web para poder realizar pedidos de alimentos de manera local y que este conectado en tiempo real al negocio para saber si hay disponibilidad de productos.     
+Un cliente abrirá un negocio de comida en 2 meses y nos solicita una aplicación web para poder consultar otros locales cercanos donde pueda adquirir los productos que necesita.    

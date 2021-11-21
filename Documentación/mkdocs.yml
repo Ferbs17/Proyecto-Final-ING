@@ -14,11 +14,9 @@ nav:
     - Requerimientos:
         - Requerimientos Usuario: REQUSU.md
         - Requerimientos Sistema: REQSIS.md
-    - Modelado:
-        - Inicio: MOD.md
     - Diseño:
         - Inicio: todo.md
     - Validación:
-        - Inicio: todo.md
+        - Métricas: pruebas/pru.md
 copyright: ©GMDXX
 site_author: GMDXX

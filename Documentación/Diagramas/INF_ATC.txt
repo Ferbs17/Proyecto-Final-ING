@@ -1,9 +1,0 @@
-Actividad: ¿Qué es un diagrama de Gannt? (Investigación) 
-Repositorio Remoto (SSH): git@github.com:yeyaMI17/ING_actividades.git
-Repositorio Remoto (HTTPS): https://github.com/yeyaMI17/ING_actividades.git
-ID del último Cambio: SHA-1: a12086801e8da8713c395a3703b161bcd11d6824
-Archivos modificados:
-  -  docs/individual/actividad-03.md
-  -  docs/individual/ejemplo3.md
-  -  resources/archivos/individual/act3
-  -  ejemplos/ACT_DGLibreria.pod

@@ -18,5 +18,7 @@ nav:
         - Inicio: diseño/DIS.md
     - Validación:
         - Métricas: pruebas/pru.md
+        - Pruebas unitarias: pruebas/PRUN.md
+        - Pruebas de integración: pruebas/PRI.md
 copyright: ©GMDXX
 site_author: GMDXX

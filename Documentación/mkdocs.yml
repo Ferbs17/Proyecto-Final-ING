@@ -15,7 +15,8 @@ nav:
         - Requerimientos Usuario: requerimientos/REQUSU.md
         - Requerimientos Sistema: requerimientos/REQSIS.md
     - Diseño:
-        - Inicio: diseño/DIS.md
+        - Vista: diseño/DIS.md
+        - Modelado: diseño/diagramas.md
     - Validación:
         - Métricas: pruebas/pru.md
         - Pruebas unitarias: pruebas/PRUN.md
